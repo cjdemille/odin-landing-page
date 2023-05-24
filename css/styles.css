@@ -1,0 +1,146 @@
+body{
+    font-family:roboto;
+    font-size:16px;
+}
+
+/* reusable styles */
+
+.dark{
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+.rounded{
+    border-radius: .5rem;
+}
+
+/* header styles */
+a{
+    text-decoration: none;
+}
+header a{
+    color: #e5e7e8;
+}
+ul{
+    list-style: none;
+}
+
+header p{
+    color:#f9faf8;
+    font-weight:bold;
+    font-size: 1.5rem;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.5rem 5rem;
+}
+header ul{
+    display: flex;
+    gap:1.5rem;
+}
+
+/* hero section styles */
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5rem;
+    gap: 1.5rem;
+}
+
+.hero .placeholder{
+    background-color:#6d747c;
+    color: #f9f9f9;
+    height: 11rem;
+    width:75%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+h1 {
+    margin: 0 0 1rem 0;
+}
+
+.hero p{
+    color: #efe7eb;
+    margin-bottom: 1.5rem;
+}
+.hero a{
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: .5rem 1rem;
+
+}
+
+/* random info styling */
+.random-info{
+    padding: 3rem 1rem;
+}
+
+h2{
+   font-size:2.25rem;
+   font-weight: 900;
+   text-align:center;
+   margin: 1rem auto;
+}
+
+.square{
+    width: 100%;
+    height:5rem;
+    border: .13rem solid #3882f6;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    gap:2rem;
+}
+
+.cards section{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size:.75rem;
+}
+
+.random-info p{
+    width:5rem;
+}
+
+/* quote styling  */
+
+.quote{
+    background-color: #e5e7eb;
+    padding:4rem 8rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote blockquote{
+    font-size: 2.25rem;
+    font-weight:lighter;
+    font-style: italic;
+    line-height: 3rem;
+}
+
+.quote cite{
+    align-self: flex-end;
+    font-weight: 700;
+}
+
